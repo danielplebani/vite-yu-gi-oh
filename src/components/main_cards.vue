@@ -3,7 +3,7 @@
 import { state } from "../state.js";
 
 export default{
-  name: 'app_cards',
+  name: 'main_cards',
 
   data(){
     return{

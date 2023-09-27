@@ -1,19 +1,19 @@
 <script>
 
-import app_cards from './app_cards.vue'
+import main_cards from './main_cards.vue'
 
 export default{
   name: 'app_main',
 
   components:{
-    app_cards
+    main_cards
   }
 }
 </script>
 
 <template>
   <div class="py-5">
-    <app_cards></app_cards>
+    <main_cards id="main_cards"></main_cards>
   </div>
   
 </template>
