@@ -14,7 +14,7 @@ export default{
   created() {
   setTimeout(() => {
     state.connectAPI();
-  }, 200);
+  }, 1000);
   }
 }
 </script>
