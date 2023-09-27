@@ -36,22 +36,20 @@ export default{
       </div>
     </div>
 
-    <div style="height: 88vh;" class="container bg-warning d-flex flex-column align-items-center py-3" v-else>
-        <div class="dot-spinner mb-5">
-          <div class="dot-spinner__dot"></div>
-          <div class="dot-spinner__dot"></div>
-          <div class="dot-spinner__dot"></div>
-          <div class="dot-spinner__dot"></div>
-          <div class="dot-spinner__dot"></div>
-          <div class="dot-spinner__dot"></div>
-          <div class="dot-spinner__dot"></div>
-          <div class="dot-spinner__dot"></div>
-        </div>
+    <div style="height: 88vh;" class="container bg-warning d-flex flex-column align-items-center justify-content-center" v-else>
+      <div class="dot-spinner mb-5">
+        <div class="dot-spinner__dot"></div>
+        <div class="dot-spinner__dot"></div>
+        <div class="dot-spinner__dot"></div>
+        <div class="dot-spinner__dot"></div>
+        <div class="dot-spinner__dot"></div>
+        <div class="dot-spinner__dot"></div>
+        <div class="dot-spinner__dot"></div>
+        <div class="dot-spinner__dot"></div>
+      </div>
 
-        <h2>loading...</h2>
+        <h2>...loading...</h2>
     </div>
-
-
 </template>
 
 
@@ -179,6 +177,4 @@ export default{
     opacity: 1;
   }
 }
-
-
 </style>
