@@ -44,7 +44,10 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+@use '../color/color.scss' as *;
+
 select{
+  width: auto;
   border-radius: 5px;
 }
 </style>

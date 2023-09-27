@@ -55,6 +55,7 @@ export default{
 
 <style lang="scss" scoped>
 @use '../color/color.scss' as *;
+
 .found_cards{
   background-color: $founded-cards;
   color: white;
