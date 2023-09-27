@@ -5,7 +5,7 @@
   export default{
     components:{
       app_header,
-      app_main
+      app_main,
     }
   }
 </script>

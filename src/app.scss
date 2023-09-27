@@ -1,9 +1,11 @@
 @use "../node_modules/bootstrap/scss/bootstrap.scss";
 
+@use './color/color.scss' as *;
+
 #app_header{
     height: 12vh;
 }
 
 #app_main{
-    background-color: #d58f39;
+    background-color: $main-bg;
 }

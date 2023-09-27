@@ -14,7 +14,7 @@ export default{
   created() {
   setTimeout(() => {
     state.connectAPI();
-  }, 3000);
+  }, 500);
   }
 }
 </script>
@@ -54,8 +54,9 @@ export default{
 
 
 <style lang="scss" scoped>
+@use '../color/color.scss' as *;
 .found_cards{
-  background-color: #212429;
+  background-color: $founded-cards;
   color: white;
 }
 
@@ -63,7 +64,7 @@ export default{
   width: calc(92.1% /5);
   border-radius: 0;
     .card-body{
-      background-color: #d58f39;
+      background-color: $main-bg;
       text-align: center;
       
         h5{
